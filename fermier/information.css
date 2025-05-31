@@ -1,0 +1,87 @@
+/* css/information.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+    padding: 0;
+    margin: 0;
+    direction: rtl; /* Pour la langue arabe */
+}
+
+h2 {
+    color: #2c3e50;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 28px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #3498db;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    background-color: white;
+    padding: 15px;
+    margin: 15px auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    transition: transform 0.3s ease;
+}
+
+p:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+p strong {
+    color: #3498db;
+    margin-left: 10px;
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin: 30px auto;
+    padding: 12px 25px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    max-width: 150px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #2980b9;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    h2 {
+        font-size: 24px;
+        margin: 20px 15px;
+    }
+    
+    p {
+        margin: 15px;
+        padding: 12px;
+    }
+    
+    a {
+        margin: 20px auto;
+    }
+}
+
+@media (max-width: 480px) {
+    h2 {
+        font-size: 22px;
+    }
+    
+    p {
+        font-size: 14px;
+    }
+}

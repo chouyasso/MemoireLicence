@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+
+:root {
+  --primary-color: #12ac8e;
+  --primary-color-dark: #0d846c;
+  --primary-color-light: #e9f7f7;
+  --secondary-color: #fb923c;
+  --text-dark: #333333;
+  --text-light: #767268;
+  --white: #ffffff;
+  --max-width: 1200px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.section__container {
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 3rem 1rem;
+}
+
+.section__header {
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--text-dark);
+}
+
+
+img {
+  width: 100%;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+body {
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  background-image: linear-gradient(
+      to right,
+      rgba(18, 172, 142, 0.9),
+      rgba(18, 172, 142, 0.7)
+    ),
+    url("4df8496f-1e1d-4a2c-aee0-5c3c93ca859f\ \(1\).jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.nav__container {
+  padding: 2rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav__logo {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--white);
+}
+
+.nav__logo span {
+  color: var(--secondary-color);
+}
+
+.nav__links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.link a {
+  padding: 0.5rem;
+  color: var(--primary-color-light);
+}
+.link a:hover {
+    color: var(--white);
+  }
+  
+  .header__container {
+    display: flex;
+    align-items: center;
+   
+  }
+  
+  .header__container h1 {
+    margin-bottom: 1rem;
+    
+    font-size: 3.5rem;
+    line-height: 4rem;
+    color: var(--white);
+  }
+  
+  .header__container p {
+    margin-bottom: 2rem;
+    max-width: 600px;
+    color: var(--primary-color-light);
+}
+.header__form h4 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--primary-color);
+  }
+  
+  .service__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+  
+  .service__header__content p {
+    max-width: 600px;
+    color: var(--text-light);
+  }
+  
+  
+  
+  .service__btn:hover {
+    color: var(--white);
+    background-color: var(--primary-color);
+  }
+  
+  .service__grid {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+  }
+  .service__grid {
+    margin-top: 4rem;
+    gap: 2rem;
+  }
+   
+
+  .service__card {
+    padding: 2rem;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+  }
+  
+
+  .service__card1 {
+    padding: 2rem;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    width: 850px;
+    margin-left: 12%;
+  }
+  
+  
+  
+  .service__card span {
+    display: inline-block;
+    margin-bottom: 1rem;
+    padding: 10px 20px;
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    background-color: var(--primary-color-light);
+    border-radius: 100%;
+    transition: 0.3s;
+  }
+   .service__card1 span {
+    display: inline-block;
+    margin-bottom: 1rem;
+    padding: 10px 20px;
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    background-color: var(--primary-color-light);
+    border-radius: 100%;
+    transition: 0.3s;
+  }
+  
+  .service__card h4 {
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--text-dark);
+  }
+  .service__card1 h4 {
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--text-dark);
+  }
+  
+  .service__card p {
+    margin-bottom: 1rem;
+    color: var(--text-light);
+  }
+  .service__card1 p {
+    margin-bottom: 1rem;
+    color: var(--text-light);
+  }
+  
+  .service__card a {
+    color: var(--primary-color);
+  }
+  .service__card1 a {
+    color: var(--primary-color);
+  }
+  
+  .service__card a:hover {
+    color: var(--primary-color-dark);
+  }
+  .service__card1 a:hover {
+    color: var(--primary-color-dark);
+  }
+  
+  
+  
+  
